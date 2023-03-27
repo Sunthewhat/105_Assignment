@@ -1,0 +1,19 @@
+.Section1 {
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+}
+.Section1:hover {
+    border: solid 1px red;
+}
+.Section1:hover h2 {
+    color: red;
+}
+
+.Section1 {
+    transition: 0.5s;
+}
+
+.Section1 h2 {
+   transition: 0.5s;
+}
