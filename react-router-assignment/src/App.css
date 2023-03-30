@@ -1,0 +1,11 @@
+.MainBlock {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#n1 {
+  padding: 7px;
+}
