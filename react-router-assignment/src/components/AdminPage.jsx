@@ -1,11 +1,23 @@
 import { useNavigate } from "react-router-dom";
+import me from "../assets/Sun.jpg";
 
-export default function Home() {
+function AdminPage() {
   const navigate = useNavigate();
-
   return (
-    <div>
-      <h1>This is Home Page</h1>
+    <>
+      <img
+        src={me}
+        alt="lost img"
+        style={{
+          margin: "15px auto",
+        }}></img>
+      <h1
+        style={{
+          margin: "5px auto",
+          display: "flex",
+        }}>
+        This is Admin Page
+      </h1>
       <button
         style={{
           margin: "20px auto",
@@ -22,8 +34,10 @@ export default function Home() {
           justifyContent: "center",
         }}
         onClick={() => navigate("/")}>
-        Log in
+        Log out
       </button>
-    </div>
+    </>
   );
 }
+
+export default AdminPage;
